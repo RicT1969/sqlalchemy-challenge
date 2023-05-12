@@ -172,9 +172,9 @@ def summary_by_start(start=None):
     s_temps = []
     for min, avg, max in start_tobs:
         s_temp_dict = {}
-        s_temp_dict["Tmin"] = min
-        s_temp_dict["Taverage"] = avg
-        s_temp_dict["Tmax"] = max
+        s_temp_dict["min"] = min
+        s_temp_dict["average"] = avg
+        s_temp_dict["max"] = max
         s_temps.append(s_temp_dict)
     
     #Find first date for error message
